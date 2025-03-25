@@ -13,7 +13,7 @@ permissions:
 jobs:
   release_archive:
     runs-on: ubuntu-latest
-    if: github.repository == 'KT-Yeh/mihomo'
+    if: github.repository == 'risc5/mihomo'
 
     steps:
       - name: Checkout
